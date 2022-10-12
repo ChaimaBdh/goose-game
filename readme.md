@@ -31,7 +31,7 @@ Ouvrir le fichier **index.html** situé dans le dossier **/docs** dans le naviga
 javac -sourcepath src -d classes src/goosegame/*.java
 ```
 
-<!-- ## Compilation et exécution des tests
+## Compilation et exécution des tests
 
 *compiler* :
 
@@ -43,7 +43,7 @@ javac -classpath test4poo.jar test/goosegame/*.java
 
 ```bash
 java -jar test4poo.jar goosegame.BasicCellTest
-``` -->
+``` 
 
 ## Production du jar exécutable
 
