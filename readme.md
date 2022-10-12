@@ -17,7 +17,7 @@ git@github.com:ChaimaBdh/goose-game.git
 *générer* :
 
 ```bash
-.../tp8> javadoc -sourcepath src -d docs -subpackages goosegame
+javadoc -sourcepath src -d docs -subpackages goosegame
 ```
 
 *consulter* :
@@ -28,7 +28,7 @@ Ouvrir le fichier **index.html** situé dans le dossier **/docs** dans le naviga
 ## Compilation des sources du projet
 
 ```bash
-.../tp8> javac -sourcepath src -d classes src/goosegame/*.java
+javac -sourcepath src -d classes src/goosegame/*.java
 ```
 
 <!-- ## Compilation et exécution des tests
@@ -36,19 +36,19 @@ Ouvrir le fichier **index.html** situé dans le dossier **/docs** dans le naviga
 *compiler* :
 
 ```bash
-.../tp8> javac -classpath test4poo.jar test/goosegame/*.java
+javac -classpath test4poo.jar test/goosegame/*.java
 ```
 
 *exécuter* :
 
 ```bash
-.../tp8> java -jar test4poo.jar goosegame.BasicCellTest
+java -jar test4poo.jar goosegame.BasicCellTest
 ``` -->
 
 ## Production du jar exécutable
 
 ```bash
-.../tp8> jar cvfe goosegame.jar goosegame.GameMain -C classes goosegame
+jar cvfe goosegame.jar goosegame.GameMain -C classes goosegame
 ```
 
 ## Exécution du programme
@@ -56,15 +56,13 @@ Ouvrir le fichier **index.html** situé dans le dossier **/docs** dans le naviga
 *sans fichier .jar* :
 
 ```bash
-.../tp8> java -classpath classes goosegame.GameMain 3
+java -classpath classes goosegame.GameMain 3
 ```
 
 *avec le fichier .jar* :
 
 ```bash
-.../tp8> java -jar goosegame.jar 3
+java -jar goosegame.jar 3
 ```
 
-**NB1 : le jeu est programmé pour 3 joueurs afin de rester fidèle à la trace de la partie du sujet**
-
-**NB2 : il se peut qu'une exception soit lancée lorsqu'une cellule n'est pas reconnue. Cependant le jeu fonctionne correctement et annonce un gagnant si on relance le programme après cette exception.**
+**NB : le jeu est programmé pour 3 joueurs afin de rester fidèle à la trace de la partie du sujet**
