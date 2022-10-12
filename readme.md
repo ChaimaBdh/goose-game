@@ -1,9 +1,6 @@
 # TP8 Jeu de l'oie
 
-## Membres du binômes
-
 * Chaïma Boudehane
-* Wissal Faty
 
 ## Objectifs
 
@@ -12,8 +9,7 @@ Le but de ce TP est d'implémenter le jeu de l'oie (goose game). Il s'agit de co
 ## Récupérer le projet
 
 ```bash
-git clone git@gitlab-etu.fil.univ-lille1.fr:boudehane/boudehane-faty-poo.git
-cd boudehane-faty-poo/tp8
+git@github.com:ChaimaBdh/goose-game.git
 ```
 
 ## Génération et consultation de la documentation
